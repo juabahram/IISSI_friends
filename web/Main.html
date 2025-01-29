@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pagina principal </title>
+    <script src="/js/utils/include.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel=" stylesheet" href="/css/font-awesome.min.css">
+    <script src="/js/libs/jquery-3.4.1.min.js"></script>
+    <script src="/js/libs/popper.min.js"></script>
+    <script src="/js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/axios.min.js"></script>
+    <script src="/js/main.js" type="module"></script>
+    <script src ="/js/header.js" type = "module"></script>
+</head>
+
+<body class="bg-dark text-light">
+    <div id="page-header"></div>
+    <div id="errors"></div>
+    <div class="container" id="main">
+        <div class="row">
+            <div class="col-md-3" id="gallery">
+                <a class="btn btn-primary" id="enlace" href="addPhotos.html"> Añadir una nueva foto</a>
+                <div class="container" id="carta"></div>
+            </div>
+
+            <div class="col-md-7" id="chat">
+            </div>
+
+            <div class="col-md-2">
+                <a class="btn btn-success" id="configur">Configuración</a>
+            </div>
+
+            <div class="col-md-3"></div>
+
+        </div>
+
+
+
+    </div>
+
+    <link rel="stylesheet" href="/css/style.css">
+    <script>
+        include("header.html", "#page-header")
+    </script>
+</body>
+
+</html>

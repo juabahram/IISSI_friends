@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/utils/include.js"></script>
+    <script src="/js/libs/jquery-3.4.1.min.js"></script>
+    <script src="/js/libs/popper.min.js"></script>
+    <script src="/js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/axios.min.js"></script>
+    <script type="module" src="/js/renderers/photo_detail.js"></script>
+    <script src ="/js/header.js" type = "module"></script>
+
+    <title> Detalles de la foto </title>
+</head>
+
+<body class="bg-dark text-light">
+    <div id="page-header"></div>
+
+    <div id="errors"></div>
+
+    <div class="container">
+        <div class="botones" id="actions-col">
+            <button type="submit" id="button-edit" class="btn btn-success">Editar</button>
+            <button type="submit" id="button-delete" class="btn btn-danger">Eliminar</button>
+        </div>
+        <div class="container"  id="photo-details-column"></div>
+        <div class="container" id="carta"></div>
+    </div>
+    <script>
+        include("Header.html", "#page-header");
+    </script>
+</body>
+
+</html>

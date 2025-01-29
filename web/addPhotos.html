@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="/js/libs/jquery-3.4.1.min.js"></script>
+    <script src="/js/utils/include.js"></script>
+    <script src="/js/libs/bootstrap.min.js"></script>
+    <script src="/js/libs/popper.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/libs/axios.min.js"></script>
+    <script type="module" src="js/edit_photos.js"></script>
+    <script src ="/js/header.js" type = "module"></script>
+    <script src="/js/edit_photos.js" type="module"></script>
+</head>
+<body class = "bg-dark text-light"> 
+    <div id="page-header"> </div>
+    <fieldset>
+        <legend class="text-center">
+            Edición de foto
+        </legend>
+        <div class="container">  
+            <div class="col-md">
+                <div id="errors"></div>
+                <div  class="card" id="card2"  > 
+                   
+                    <form class="formu-fotos" id="form-photo">
+                        
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label for="tittle-input">Titulo:</label>
+                                    <input type="title" 
+                                        class="form-control" 
+                                        id="title-input" 
+                                        name="name" 
+                                        placeholder="Titulo"required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label for="url-input"> URL</label>
+                                    <input type="url" 
+                                        class="form-control" 
+                                        id="url-input" 
+                                        name="pictureURL" 
+                                        placeholder="URL" required>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md">
+                                <div class="form-group">
+                                    <label for="descripcion-input">Descripcion</label>
+                                    <input type="text" 
+                                        class="form-control" 
+                                        id="description-input" 
+                                        name="description" 
+                                        placeholder="Añada una descripcion"required>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary"> Subir foto</button>
+                     
+                    </form>
+                    
+                </div>                
+            </div>
+        </div>
+    </fieldset>
+
+    <script>include("Header.html", "#page-header")</script>      
+</body>

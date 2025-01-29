@@ -1,0 +1,191 @@
+/*Header*/
+div.tittle-block {
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #333333;
+}
+
+#tittle {
+    font-size: 300%;
+    text-decoration: none;
+    color: #BBBBBB;
+    font-family: Calibri;
+    margin-bottom: 0;
+}
+
+#subtittle {
+    font-size: 120%;
+    font-style: italic;
+    color: #BBBBBB;
+    font-family: monospace;
+}
+
+/**/
+
+/*Register*/
+input.form-control::placeholder {
+    color: #adadad;
+}
+
+input.form-control {
+    background-color: #5c5b5f;
+    color: #adadad;
+}
+
+textarea.form-control {
+    color: #adadad;
+    background-color: #5c5b5f;
+}
+
+input.form-control:focus {
+    background-color: #5c5b5f;
+    color: #cccccc;
+}
+
+select.form-control {
+    background-color: #5c5b5f;
+    color: #adadad;
+}
+
+select.form-control:focus {
+    background-color: #5c5b5f;
+    color: #cccccc;
+}
+
+form.formu {
+    border-color: #999999;
+    margin-top: 2.5%;
+    margin-left: 10.0%;
+    margin-right: 10.0%;
+    margin-bottom: 5.0%;
+}
+
+#biografía {
+    max-height: 90px;
+}
+
+/**/
+
+/*index*/
+form.formu2 {
+    border-color: #999999;
+    margin-top: 1.5%;
+    margin-right: 7.0%;
+    margin-bottom: 5.0%;
+    margin-left: 7.0%;
+    margin-bottom: 1.5%;
+}
+
+/**/
+
+/*Config*/
+form.formu3 {
+    border-color: #999999;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5;
+    font-size: 100%;
+}
+
+#card1 {
+    max-height: 100%;
+    margin-left: 10%;
+    margin-right: 0%;
+    margin-bottom: 3%;
+    max-width: 100%;
+    border-color: #999999;
+    background-color: #393939;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #d6d6d6;
+}
+
+/**/
+
+body.dark {
+    background-color: #222222;
+    color: #eeeeee;
+}
+
+/*addphotos*/
+#card2 {
+    max-height: 100%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    max-width: 100%;
+    border-color: #999999;
+    background-color: #393939;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 120%;
+    color: #d6d6d6;
+    font-family: arial;
+
+}
+
+form.formu-fotos {
+    border-color: #999999;
+    margin-top: 2.5%;
+    margin-left: 10.0%;
+    margin-right: 10.0%;
+    margin-bottom: 2.5%;
+    font-size: 80%;
+}
+
+/**/
+
+div.botones {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: left;
+}
+
+#mensaje-boton {
+    margin-left: -10%;
+
+}
+
+#enlace {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.row {
+    margin-right: 0%;
+}
+
+#main {
+    margin: 0%;
+    margin-right: 0%;
+    max-width: unset;
+}
+
+#bot{
+    padding-top: 96%;
+}
+
+#configur {
+    font-size: 120%;
+    color: #BBBBBB;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+
+#menu {
+    margin-top: 8%;
+}
+
+#baja {
+    margin-top: 8%;
+}
+
+#photo-card{
+    max-height: 100%;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-color: #999999;
+    background-color: #484848;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

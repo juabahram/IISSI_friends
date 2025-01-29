@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="/js/libs/popper.min.js"></script>
+        <script src="js/libs/axios.min.js"></script>
+        
+
+        <script src="/js/libs/jquery-3.4.1.min.js"></script>
+        <script src="/js/libs/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+ 
+        <script src="/js/utils/include.js"></script>
+        <script src="/js/libs/jquery-3.4.1.min.js"></script>
+        <script src="/js/libs/popper.min.js"></script>
+        <script src="/js/libs/bootstrap.min.js"></script>
+        <script src="js/libs/axios.min.js"></script>
+        <script src ="/js/header.js" type = "module"></script>
+        <script src ="/js/login.js" type = "module"></script>
+    
+        <title> Inicio de Sesión </title>
+    </head>
+    
+    <body class="bg-dark text-light">
+        <div id="page-header"></div>
+        <div id="errors"></div>
+        <fieldset>
+            <form class="formu2" id="Login-form">
+    
+                <div class="row">
+                    <div class="col-md">
+                        <div class="form-group"></div>
+                    </div>
+    
+                    <div class="col-md">
+                        <div class="form-group">
+    
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <legend>Inicio de sesión</legend>
+                        <label for="email-input">Email:</label>
+                        <input type="email" class="form-control" id="email-input" name="email" placeholder="Email" required>
+                    </div>
+                </div>
+    
+                <div class="row">
+                    <div class="col-md">
+                        <div class="form-group">
+                        </div>
+                    </div>
+    
+                    <div class="col-md"></div>
+                    <div class="col-md">
+                        <div class="form-group">
+                            <label for="input-contraseña">Contraseña</label>
+                            <input type="password" class="form-control" id="password-input" name="password" placeholder="Contraseña" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md text-right">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                </div>
+            </from>
+        </fieldset>
+        <div id="errors"></div>
+        <script> include("Header.html", "#page-header")</script>  
+    </body>
+</html>
